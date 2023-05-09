@@ -14,12 +14,12 @@ const RightNav = () => {
             
                 <h4 className='mt-4 mb-2'>Find Us On</h4>
                 <ListGroup >
-                    <a  className='text-decoration-none' href="https://www.facebook.com/">
+                    <a  className='text-decoration-none' href="https://www.facebook.com/" target="_blank">
                         <ListGroup.Item> <FaFacebookF className='text-primary'></FaFacebookF> Facebook</ListGroup.Item>
                     </a>
-                    <a  className='text-decoration-none' href="https://www.Twitter.com/"> <ListGroup.Item> <FaTwitter className='text-primary'></FaTwitter> Twitter</ListGroup.Item></a>
+                    <a  className='text-decoration-none' href="https://www.Twitter.com/" target="_blank"> <ListGroup.Item> <FaTwitter className='text-primary'></FaTwitter> Twitter</ListGroup.Item></a>
 
-                    <a  className='text-decoration-none' href="https://www.instagram.com/"> <ListGroup.Item> <FaInstagram className='text-danger'></FaInstagram> instagram</ListGroup.Item></a>
+                    <a  className='text-decoration-none' href="https://www.instagram.com/" target="_blank"> <ListGroup.Item> <FaInstagram className='text-danger'></FaInstagram> instagram</ListGroup.Item></a>
                 </ListGroup>
             </div>
             <QZone></QZone>
