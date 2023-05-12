@@ -31,13 +31,13 @@ const NewsCard = ({ news }) => {
             <Card.Footer className="text-muted d-flex">
                 <div className='flex-grow-1'>
                     <Rating
-                        placeholderRating = {rating.number}
+                        placeholderRating={rating.number}
                         readonly
                         emptySymbol={<FaRegStar></FaRegStar>}
                         placeholderSymbol={<FaStar className='text-warning'></FaStar>}
                         fullSymbol={<FaStar></FaStar>}
-                        ></Rating>
-                       <span className='fw-semibold text-secondary'> {rating.number}</span> 
+                    ></Rating>
+                    <span className='fw-semibold text-secondary'> {rating.number}</span>
                 </div>
                 <div>
 
