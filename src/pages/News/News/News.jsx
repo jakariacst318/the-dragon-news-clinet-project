@@ -9,6 +9,7 @@ const News = () => {
     const { title, details, image_url, category_id } = news
     return (
         <div>
+            <h3 className='pb-3'>Dragon News</h3>
             <Card style={{ width: "" }}>
                 <Card.Img variant="top" src={image_url} />
                 <Card.Body>
